@@ -1,0 +1,259 @@
+body{
+    padding: 0;
+    margin: 0;
+   background-color: #f1f1f1!important;;
+}
+* {box-sizing: border-box;}
+
+.container{
+    max-width: 1200px;
+    margin: 0;
+ 
+}
+
+/*                              -------------------------left-container ---------------------------                */
+.left-container{
+    display: block;
+    width: 30%; 
+    float: left;
+    text-align: left;
+    padding: 0px;
+    margin: 20px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+}
+
+ img.Parsonal:hover{box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) }
+  img.Parsonal{
+    top:0;
+    right:0;
+    width: 100%;
+    height: auto;
+    animation: myfirst 2s ease-in-out 1;
+}
+
+ .name {
+   font-size: 40px ;
+    font-style: italic;
+    color: rgb(212, 119, 12);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+   animation: myfirst 3s ease-in-out 1;
+}
+@keyframes myfirst{
+    from{transform: translateX(520px);}
+    to{transform: translateX(0px);}
+    }
+
+ .data {
+    margin-top: 0px;
+    padding: 10px !important;
+  text-align: left;
+   
+}
+
+.data p{
+    display: block;
+   font-size: 17px;
+  margin: 2px;
+  font-weight: bold;
+  
+   
+}
+.data p a{
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none; 
+    color: black ;
+     font:normal normal normal  FontAwesome;
+}
+
+.mine-img{
+    display: inline-block;
+   
+    width: 20px;
+    height: 21px;
+   margin-right: 10px !important;
+   margin-left: 10px !important;
+}
+
+
+
+
+/*----Activities-----*/
+.logo  {
+    display: inline;
+    width: 20px;
+    height: 25px;
+    float: left;
+    margin-right: 2px;
+}
+.date{
+    display: block;
+    width: 20px;
+    height: 25px;
+    float: left;
+    margin-right: 7px;
+}
+.main-title{
+    font-size: 29px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 20px;
+} 
+
+
+.activites ul li{
+    text-align: left;
+}
+
+
+/*----Skills---*/
+
+.skills{
+    margin: 5px;
+}
+
+.skills p{
+    margin: 5px;
+    text-align: left;
+
+}
+
+ .pro{
+    width: 100%;
+    text-align: center;
+    animation: width 2s ease-in-out 1;
+}
+.skills .HTML{
+    width: 90%;
+    border-radius: 14px;
+    background-color: #009688;
+}
+.skills .CSS{
+    width: 90%;
+    border-radius: 14px;
+    background-color: #009688;
+}
+.skills .Java{
+    width: 70%;
+    border-radius: 14px;
+    background-color: #009688;
+}
+.skills .Php{
+    width: 50%;
+    border-radius: 14px;
+    background-color: #009688;
+}
+.skills .Arc{
+    width: 40%;
+    border-radius: 14px;
+    background-color: #009688;
+}
+
+
+/*-------languages-------*/
+
+.languages{
+    margin: 5px;
+}
+.languages .Arabic{
+    width: 100%;
+    height: 10px;
+    border-radius: 14px;
+    background-color: #009688;
+}
+.languages .English{
+    width: 80%;
+    height: 10px;
+    border-radius: 14px;
+    background-color: #009688;
+}
+.languages .Turkish{
+    width: 40%;
+    height: 10px;
+    border-radius: 14px;
+    background-color: #009688;
+}
+@keyframes width {
+    from { width:0 };
+    to{ width:100% }
+}
+
+/*------------------------------------------------------------------------right-container---------------*/
+.right-container{
+    display: block;
+    height: auto;
+    width: 64%; 
+    float: left;
+    text-align: left;
+    padding: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white !important;
+}
+/*------Work-Experience-----*/
+.para h4{
+  margin: 5px;
+    font-weight: bold;
+    font-family: FontAwesome;
+}
+.para p{
+    margin: 5px;
+}
+.Work-Experience span .current{
+    padding: 5px 12px;
+    background-color:#009688;
+    border-radius: 12pc;
+    color: white;
+}
+.Work-Experience span{
+    color: #009688;
+}
+.Work-Experience .para {
+    margin:0px !important;
+    padding: 5px;
+    outline-width: 0px !important;
+}
+
+
+
+
+/*--------------------------------Footer---------------------------------------------------------------------*/
+footer{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+   bottom: 0;
+   right: 0;
+   color: aliceblue;
+    margin: 10px !important;
+    text-align: center;
+    background-color: #009688;
+}
+
+.social{
+    width: 90%;  
+}
+.social a{
+margin: 0 20px;
+}
+.social a img{
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+   transition: .2s;
+}
+.social a img:hover {
+    transform: translatey(2px);
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+
+
+
+    

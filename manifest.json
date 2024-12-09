@@ -1,0 +1,8 @@
+{
+  "short_name": "My PWA",
+  "name": "My Progressive Web App",
+  "start_url": "career.html",
+  "display": "standalone",
+  "orientation": "portrait"
+  
+}
